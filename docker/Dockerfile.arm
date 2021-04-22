@@ -1,0 +1,9 @@
+FROM dronehippie/base:arm
+
+LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
+  org.opencontainers.image.title="Drone Gpgsign" \
+  org.opencontainers.image.vendor="Webhippie" \
+  org.opencontainers.image.documentation="https://dronehippie.github.io/gpgsign/"
+
+ENTRYPOINT ["/bin/drone-gpgsign"]
+ADD bin/drone-gpgsign /bin/

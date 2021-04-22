@@ -1,0 +1,6 @@
+title: gpgsign
+description: Drone plugin provided by Webhippie
+baseurl: /gpgsign
+
+email: mail@webhippie.de
+theme: jekyll-theme-cayman
